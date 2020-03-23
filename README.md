@@ -1,7 +1,9 @@
 ## Online Sports Polls & Polling Report
 
 Which Team is going to win or lose? Or will the match be ended in a draw?
+
 This app allows  users to vote on each event and then shows another random event to vote on.
+
 It also allows to see polling report.
 
 ### How to install
