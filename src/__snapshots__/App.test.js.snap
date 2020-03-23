@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App snapshot renders 1`] = `
+<div
+  className="app"
+>
+  <div
+    style={
+      Object {
+        "color": "white",
+        "textAlign": "center",
+      }
+    }
+  >
+    <h1>
+      Glomo - Sports Poll
+    </h1>
+    <form
+      onSubmit={[Function]}
+    >
+      <input
+        className="input"
+        onChange={[Function]}
+        placeholder="Enter name"
+        required={true}
+        type="text"
+        value=""
+      />
+      <button
+        className="menu-btn"
+        style={
+          Object {
+            "margin": "10px 0 0 10px",
+          }
+        }
+        type="submit"
+      >
+         Start
+      </button>
+    </form>
+  </div>
+</div>
+`;
+
+exports[`Poll - Dashboard snapshot renders 1`] = `
+<div
+  style={
+    Object {
+      "color": "white",
+      "textAlign": "center",
+    }
+  }
+>
+  <h1>
+    Glomo - Sports Poll
+  </h1>
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      className="input"
+      onChange={[Function]}
+      placeholder="Enter name"
+      required={true}
+      type="text"
+      value=""
+    />
+    <button
+      className="menu-btn"
+      style={
+        Object {
+          "margin": "10px 0 0 10px",
+        }
+      }
+      type="submit"
+    >
+       Start
+    </button>
+  </form>
+</div>
+`;
+
+exports[`Signin - Dashboard snapshot renders 1`] = `
+<div
+  style={
+    Object {
+      "color": "white",
+      "textAlign": "center",
+    }
+  }
+>
+  <h1>
+    Glomo - Sports Poll
+  </h1>
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      className="input"
+      onChange={[Function]}
+      placeholder="Enter name"
+      required={true}
+      type="text"
+      value=""
+    />
+    <button
+      className="menu-btn"
+      style={
+        Object {
+          "margin": "10px 0 0 10px",
+        }
+      }
+      type="submit"
+    >
+       Start
+    </button>
+  </form>
+</div>
+`;

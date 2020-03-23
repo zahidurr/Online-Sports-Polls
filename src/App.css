@@ -1,0 +1,107 @@
+.app {
+  background: #383737;
+  padding: 50px;
+}
+
+
+.column, .column-team-name {
+  float: left;
+  padding: 0 10px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.row {
+  margin: 0 -5px;
+}
+
+.card {
+  background: #f1f1f1;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.vote-btn {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #ce342f;
+  text-align: center;
+  cursor: pointer;
+  width: 120px;
+  font-size: 18px;
+}
+
+.menu-btn {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #0366d6;
+  text-align: center;
+  cursor: pointer;
+  width: 120px;
+  font-size: 18px;
+}
+
+/* Signin input */
+input[type=text] {
+  width: 80%;
+  padding: 13px;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.team-logo {
+  font-size: 250%;
+  border: 3px solid rgb(124, 50, 50);
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 25px;
+}
+
+.play-status {
+  font-size: 100%;
+  border: 1px solid rgb(0, 0, 0);
+  margin: 40px 15px 0 15px;
+}
+
+/* Small screen CSS max 600px */
+@media only screen and (max-width: 600px) {
+  .app {
+    background: #383737;
+    padding: 10px;
+  }
+
+  .column-team-name {
+    float: none;
+    text-align: center;
+  }
+
+  .vote-btn {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px 2px 8px 2px;
+    color: white;
+    background-color: #ce342f;
+    text-align: center;
+    cursor: pointer;
+    width: 70px;
+    font-size: 11px;
+  }
+
+  .play-status {
+    font-size: 80%;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 40px 5px 0 5px;
+  }
+}
